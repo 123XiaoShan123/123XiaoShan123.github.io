@@ -93,9 +93,9 @@
       var typed = new Typed("#subtitle", {
         strings: ['', '它山之石 可以攻玉', ''],
         startDelay: 0,
-        typeSpeed: 300,
+        typeSpeed: 200,
         loop: true,
-        backSpeed: 200,
+        backSpeed: 100,
         showCursor: true
       });
     } catch (err) {
@@ -108,19 +108,11 @@
   
   
   
-
 <div class="notice" style="margin-top:50px">
     <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
+    <div class="notice-content">笨鸟的自我修养。</div>
 </div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
+
 
 <style>
     .notice {
@@ -332,6 +324,10 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">旅行</a>
     </li>
     
     <li class="nav-item">
