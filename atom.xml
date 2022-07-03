@@ -6,7 +6,7 @@
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/"/>
-  <updated>2022-07-03T10:53:38.541Z</updated>
+  <updated>2022-07-03T10:58:34.787Z</updated>
   <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/</id>
   
   <author>
@@ -17,12 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于我</title>
+    <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+    <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/%E5%85%B3%E4%BA%8E%E6%88%91/</id>
+    <published>2022-07-03T10:57:25.000Z</published>
+    <updated>2022-07-03T10:58:34.787Z</updated>
+    
+    
+    
+    
+    <category term="myself" scheme="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/categories/myself/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux</title>
+    <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/Linux/"/>
+    <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/Linux/</id>
+    <published>2022-07-03T10:57:02.000Z</published>
+    <updated>2022-07-03T10:59:13.001Z</updated>
+    
+    
+    
+    
+    <category term="Linux" scheme="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/categories/Linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>FPGA</title>
     <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/FPGA-1/"/>
     <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/FPGA-1/</id>
     <published>2022-07-03T10:53:04.000Z</published>
-    <updated>2022-07-03T10:53:38.541Z</updated>
+    <updated>2022-07-03T10:55:53.207Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;d调度&lt;/p&gt;
+</summary>
+        
+      
     
     
     
@@ -32,40 +71,16 @@
   </entry>
   
   <entry>
-    <title>SSH</title>
-    <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/SSH/"/>
-    <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/SSH/</id>
-    <published>2022-07-03T10:34:50.000Z</published>
-    <updated>2022-07-03T10:34:50.887Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>协议</title>
     <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/%E5%8D%8F%E8%AE%AE/"/>
     <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/%E5%8D%8F%E8%AE%AE/</id>
     <published>2022-07-03T03:25:30.000Z</published>
-    <updated>2022-07-03T03:25:30.743Z</updated>
+    <updated>2022-07-03T10:58:21.696Z</updated>
     
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>protocol</title>
-    <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/02/protocol/"/>
-    <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/02/protocol/</id>
-    <published>2022-07-02T13:26:29.000Z</published>
-    <updated>2022-07-03T03:19:22.936Z</updated>
-    
-    
-    
+    <category term="protocol" scheme="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/categories/protocol/"/>
     
     
   </entry>
