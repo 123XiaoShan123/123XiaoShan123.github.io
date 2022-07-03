@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>FPGA</title>
-    <url>/2022/07/03/FPGA-1/</url>
-    <content><![CDATA[<p>d调度</p>
-]]></content>
-      <categories>
-        <category>FPGA</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Linux</title>
-    <url>/2022/07/03/Linux/</url>
+    <title>CNN</title>
+    <url>/2022/07/03/CNN/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>Linux</category>
+        <category>CNN</category>
       </categories>
   </entry>
   <entry>
@@ -23,11 +14,12 @@
     <content><![CDATA[<h1 id="关于FPGA"><a href="#关于FPGA" class="headerlink" title="关于FPGA"></a>关于FPGA</h1>]]></content>
   </entry>
   <entry>
-    <title>CNN</title>
-    <url>/2022/07/03/CNN/</url>
-    <content><![CDATA[]]></content>
+    <title>FPGA</title>
+    <url>/2022/07/03/FPGA-1/</url>
+    <content><![CDATA[<p>d调度</p>
+]]></content>
       <categories>
-        <category>CNN</category>
+        <category>FPGA</category>
       </categories>
   </entry>
   <entry>
@@ -49,11 +41,11 @@
 ]]></content>
   </entry>
   <entry>
-    <title>协议</title>
-    <url>/2022/07/03/%E5%8D%8F%E8%AE%AE/</url>
+    <title>Linux</title>
+    <url>/2022/07/03/Linux/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>protocol</category>
+        <category>Linux</category>
       </categories>
   </entry>
   <entry>
@@ -62,6 +54,25 @@
     <content><![CDATA[]]></content>
       <categories>
         <category>myself</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>你是？</title>
+    <url>/2022/07/03/%E5%BF%83%E6%96%87%E4%BB%B6/</url>
+    <content><![CDATA[<p><img src="/../images/image-20220703202639068.png" alt="image-20220703202639068"></p>
+<p><img src="/../images/image-20220703202651820.png" alt="image-20220703202651820"></p>
+<p><img src="/../images/image-20220703202658418.png" alt="image-20220703202658418"></p>
+]]></content>
+      <categories>
+        <category>FPGA</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>协议</title>
+    <url>/2022/07/03/%E5%8D%8F%E8%AE%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>protocol</category>
       </categories>
   </entry>
 </search>
