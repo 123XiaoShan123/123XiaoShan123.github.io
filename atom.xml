@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>笑山</title>
   
-  
+  <subtitle>笨鸟笔记</subtitle>
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/"/>
-  <updated>2022-07-02T13:26:29.743Z</updated>
+  <updated>2022-07-03T03:25:30.743Z</updated>
   <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/</id>
   
   <author>
@@ -17,11 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>协议</title>
+    <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/%E5%8D%8F%E8%AE%AE/"/>
+    <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/03/%E5%8D%8F%E8%AE%AE/</id>
+    <published>2022-07-03T03:25:30.000Z</published>
+    <updated>2022-07-03T03:25:30.743Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>protocol</title>
     <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/02/protocol/"/>
     <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/02/protocol/</id>
     <published>2022-07-02T13:26:29.000Z</published>
-    <updated>2022-07-02T13:26:29.743Z</updated>
+    <updated>2022-07-03T03:19:22.936Z</updated>
     
     
     
