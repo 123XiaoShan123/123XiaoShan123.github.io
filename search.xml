@@ -9,6 +9,11 @@
       </categories>
   </entry>
   <entry>
+    <title></title>
+    <url>/2022/07/01/FPGA/</url>
+    <content><![CDATA[<h1 id="关于FPGA"><a href="#关于FPGA" class="headerlink" title="关于FPGA"></a>关于FPGA</h1>]]></content>
+  </entry>
+  <entry>
     <title>Linux</title>
     <url>/2022/07/03/Linux/</url>
     <content><![CDATA[]]></content>
@@ -34,11 +39,6 @@
   </entry>
   <entry>
     <title></title>
-    <url>/2022/07/01/FPGA/</url>
-    <content><![CDATA[<h1 id="关于FPGA"><a href="#关于FPGA" class="headerlink" title="关于FPGA"></a>关于FPGA</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
     <url>/2022/07/04/%E5%90%89%E5%A4%A7ABB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>title: 吉大机器人开发记录<br>categories: others</p>
 <h1 id="吉大ABB机器人问题汇总"><a href="#吉大ABB机器人问题汇总" class="headerlink" title="吉大ABB机器人问题汇总"></a>吉大ABB机器人问题汇总</h1><p>重新上电后程序运行无法控制，疑似目标点参数未存储导致。</p>
@@ -48,9 +48,9 @@
 <p><img src="/../images/image-20220704173916101.png" alt="6个轴的机械刻度位置"></p>
 <p>2）在手动操纵菜单中，选择“轴4-6”动作模式，<strong>依次将关节轴4、5、6</strong>运动到机械原点的刻度位置。选择“轴1-3”动作模式，<strong>依次将关节轴1、2、3</strong>运动到机械原点的刻度位置。</p>
 <p>3）在示教器中依次选择<strong>“校准”</strong>-选择<strong>“校准参数”</strong>。选择<strong>“编辑电动机校准偏移”</strong>将<strong>机器人本体2轴铭牌</strong>上电动机校准偏移记录下来（见图2、3）</p>
-<img src="../images/image-20220704175154739.png" alt="图2 先校准电机偏移" style="zoom: 100%;" />
+<img src="../images/image-20220704175654310.png" alt="图3 电机校准页"/>
 
-<img src="../images/image-20220704175654310.png" alt="图3 电机校准页" style="zoom:100%;" />
+<img src="../images/image-20220704175154739.png" alt="图2 先校准电机偏移"/>
 
 <p>单击“是”。输入刚才从机器人本体记录的电动机校准偏移数据， 然后单击“确定”。</p>
 <p>4）更新转数计数器（常规）</p>
