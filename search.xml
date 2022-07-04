@@ -9,38 +9,6 @@
       </categories>
   </entry>
   <entry>
-    <title></title>
-    <url>/2022/07/01/FPGA/</url>
-    <content><![CDATA[<h1 id="关于FPGA"><a href="#关于FPGA" class="headerlink" title="关于FPGA"></a>关于FPGA</h1>]]></content>
-  </entry>
-  <entry>
-    <title>FPGA</title>
-    <url>/2022/07/03/FPGA-1/</url>
-    <content><![CDATA[<p>d调度</p>
-]]></content>
-      <categories>
-        <category>FPGA</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/07/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Linux</title>
     <url>/2022/07/03/Linux/</url>
     <content><![CDATA[]]></content>
@@ -57,22 +25,36 @@
       </categories>
   </entry>
   <entry>
-    <title>你是？</title>
-    <url>/2022/07/03/%E5%BF%83%E6%96%87%E4%BB%B6/</url>
-    <content><![CDATA[<p><img src="/../images/image-20220703202639068.png" alt="image-20220703202639068"></p>
-<p><img src="/../images/image-20220703202651820.png" alt="image-20220703202651820"></p>
-<p><img src="/../images/image-20220703202658418.png" alt="image-20220703202658418"></p>
-]]></content>
-      <categories>
-        <category>FPGA</category>
-      </categories>
-  </entry>
-  <entry>
     <title>协议</title>
     <url>/2022/07/03/%E5%8D%8F%E8%AE%AE/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>protocol</category>
+      </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/07/01/FPGA/</url>
+    <content><![CDATA[<h1 id="关于FPGA"><a href="#关于FPGA" class="headerlink" title="关于FPGA"></a>关于FPGA</h1>]]></content>
+  </entry>
+  <entry>
+    <title>吉大机器人开发记录</title>
+    <url>/2022/07/04/%E5%90%89%E5%A4%A7ABB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="吉大ABB机器人问题汇总"><a href="#吉大ABB机器人问题汇总" class="headerlink" title="吉大ABB机器人问题汇总"></a>吉大ABB机器人问题汇总</h1><p>重新上电后程序运行无法控制，疑似目标点参数未存储导致。</p>
+<h2 id="更新转数计数器"><a href="#更新转数计数器" class="headerlink" title="更新转数计数器"></a>更新转数计数器</h2><p>1.<strong>频繁更新转速计数器可能由于SMB电池无电导致</strong>（错误码：38200），可联系ABB官方客服：800-820 9696, 400-820 9696，8456 6688更换</p>
+<p>2.校准方式：</p>
+<p>1）手动把ABB机器人各个轴停到机械原点（见图1），就是把各轴上的刻度线和对应的槽对齐。然后在示教器的相关功能内把机器人2轴上面的各轴参数的标牌内的树值输入，再点更新就行。</p>
+<p><img src="/../images/image-20220704173916101.png" alt="6个轴的机械刻度位置"></p>
+<p>2）在手动操纵菜单中，选择“轴4-6”动作模式，<strong>依次将关节轴4、5、6</strong>运动到机械原点的刻度位置。选择“轴1-3”动作模式，<strong>依次将关节轴1、2、3</strong>运动到机械原点的刻度位置。</p>
+<p>3）在示教器中依次选择<strong>“校准”</strong>-选择<strong>“校准参数”</strong>。选择<strong>“编辑电动机校准偏移”</strong>将<strong>机器人本体2轴铭牌</strong>上电动机校准偏移记录下来（见图2）</p>
+<p><img src="../images/image-20220704175154739.png" alt="图2 先校准电机偏移" style="zoom: 65%;" /><img src="../images/image-20220704175654310.png" alt="image-20220704175654310" style="zoom:65%;" /></p>
+<p>单击“是”。输入刚才从机器人本体记录的电动机校准偏移数据， 然后单击“确定”。</p>
+<p>4）更新转数计数器（常规）</p>
+<h2 id="机器人点动"><a href="#机器人点动" class="headerlink" title="机器人点动"></a>机器人点动</h2><p>点动程序受限，设计逻辑问题，待完善</p>
+<h2 id="运动路径不水平-z轴倾斜"><a href="#运动路径不水平-z轴倾斜" class="headerlink" title="运动路径不水平 z轴倾斜"></a>运动路径不水平 z轴倾斜</h2><p>疑似未标定工具坐标系所致</p>
+]]></content>
+      <categories>
+        <category>others</category>
       </categories>
   </entry>
 </search>
