@@ -14,19 +14,19 @@
     <content><![CDATA[<h1 id="关于FPGA"><a href="#关于FPGA" class="headerlink" title="关于FPGA"></a>关于FPGA</h1>]]></content>
   </entry>
   <entry>
-    <title>关于我</title>
-    <url>/2022/07/03/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>myself</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Linux</title>
     <url>/2022/07/03/Linux/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>Linux</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>关于我</title>
+    <url>/2022/07/03/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>myself</category>
       </categories>
   </entry>
   <entry>
