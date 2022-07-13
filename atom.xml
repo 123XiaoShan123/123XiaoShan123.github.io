@@ -6,7 +6,7 @@
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/"/>
-  <updated>2022-07-04T10:32:23.941Z</updated>
+  <updated>2022-07-13T13:15:37.683Z</updated>
   <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FPGA-WAAM</title>
+    <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/13/FPGA-WAAM/"/>
+    <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/13/FPGA-WAAM/</id>
+    <published>2022-07-13T12:52:02.000Z</published>
+    <updated>2022-07-13T13:15:37.683Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;总体设计&quot;&gt;&lt;a href=&quot;#总体设计&quot; class=&quot;headerlink&quot; title=&quot;总体设计&quot;&gt;&lt;/a&gt;总体设计&lt;/h1&gt;&lt;p&gt;先上图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/../images/image-20220713205625898.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="FPGA" scheme="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/categories/FPGA/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>吉大机器人问题记录</title>
@@ -100,11 +124,11 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>FPGA语法</title>
     <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/01/FPGA/"/>
     <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/01/FPGA/</id>
     <published>2022-07-01T13:50:44.121Z</published>
-    <updated>2022-07-01T13:50:44.200Z</updated>
+    <updated>2022-07-04T10:39:12.015Z</updated>
     
     
       
@@ -116,6 +140,8 @@
       
     
     
+    
+    <category term="FPGA" scheme="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/categories/FPGA/"/>
     
     
   </entry>

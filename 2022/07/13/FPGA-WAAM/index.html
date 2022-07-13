@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>FPGA语法 |  笑山</title>
+      <title>FPGA-WAAM |  笑山</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/dog.ico" />
@@ -54,7 +54,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-FPGA"
+  id="post-FPGA-WAAM"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -65,7 +65,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  FPGA语法
+  FPGA-WAAM
 </h1>
  
 
@@ -73,8 +73,8 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2022/07/01/FPGA/" class="article-date">
-  <time datetime="2022-07-01T13:50:44.121Z" itemprop="datePublished">2022-07-01</time>
+      <a href="/2022/07/13/FPGA-WAAM/" class="article-date">
+  <time datetime="2022-07-13T12:52:02.000Z" itemprop="datePublished">2022-07-13</time>
 </a> 
   <div class="article-category">
     <a class="article-category-link" href="/categories/FPGA/">FPGA</a>
@@ -85,7 +85,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">3</span>
+            <span class="post-count">264</span>
         </span>
     </span>
 
@@ -109,7 +109,16 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="关于FPGA"><a href="#关于FPGA" class="headerlink" title="关于FPGA"></a>关于FPGA</h1> 
+  <h1 id="总体设计"><a href="#总体设计" class="headerlink" title="总体设计"></a>总体设计</h1><p>先上图</p>
+<p><img src="/../images/image-20220713205625898.png" alt="拟定的关于图像处理的基本流程"></p>
+<p>​		对CNN的计算主要通过ZYNQ实现，PS端完成以浮点运算为主的全连接层，PL端进行网络主要层次卷积层的运算。PS、PL的交互通过片上总线AXI-4进行。整个系统主要工作包括驱动开发、存储缓存模块开发、计算模块开发等，任务跨度比较大。实现起来有相当的难度。</p>
+<p>拟定2022下学期内完成输入\输出端驱动搭建，缓存模块设计以及	qt界面开发。</p>
+<h2 id="当前难度主要在于："><a href="#当前难度主要在于：" class="headerlink" title="当前难度主要在于："></a>当前难度主要在于：</h2><ol>
+<li>Basler相机驱动开发，缺少相关文档和SDK，由此可能耗费很多时间。</li>
+<li>卷积网络结构迟迟不能决定，ZYNQ-XC7020芯片资源可能并不适用于部署深层次网络，计算模块之外相关模块处理可能占用相当数量的硬件资源。</li>
+<li>对于处理中心交换机部分通信吞吐量尚未明细。</li>
+</ol>
+<h1 id="万丈高楼平地起，自己选的，莽吧"><a href="#万丈高楼平地起，自己选的，莽吧" class="headerlink" title="万丈高楼平地起，自己选的，莽吧"></a>万丈高楼平地起，自己选的，莽吧</h1> 
       <!-- reward -->
       
     </div>
@@ -138,15 +147,11 @@
     
   <nav class="article-nav">
     
-      <a href="/2022/07/03/%E5%8D%8F%E8%AE%AE/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            协议
-          
-        </div>
-      </a>
     
+      <a href="/2022/07/04/%E5%90%89%E5%A4%A7ABB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%97%AE%E9%A2%98/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">吉大机器人问题记录</div>
+      </a>
     
   </nav>
 
