@@ -6,7 +6,7 @@
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/"/>
-  <updated>2022-08-09T12:46:18.751Z</updated>
+  <updated>2022-08-09T12:49:14.600Z</updated>
   <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ZYNQ_Ethernet_VDMA</title>
+    <link href="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/31/ZYNQ-Ethernet/"/>
+    <id>https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/2022/07/31/ZYNQ-Ethernet/</id>
+    <published>2022-07-31T02:15:18.000Z</published>
+    <updated>2022-08-09T12:49:14.600Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;系统框架&quot;&gt;&lt;a href=&quot;#系统框架&quot; class=&quot;headerlink&quot; title=&quot;系统框架&quot;&gt;&lt;/a&gt;系统框架&lt;/h2&gt;&lt;p&gt;​		根据多弧并行视觉设备通信需要，初步拟定的系统基本框架如下：&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="FPGA" scheme="https://github.com/123XiaoShan123/123XiaoShan123.github.io.git/categories/FPGA/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>FPGA-WAAM</title>
