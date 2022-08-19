@@ -180,8 +180,12 @@
        
   <h2 id="系统框架"><a href="#系统框架" class="headerlink" title="系统框架"></a>系统框架</h2><p>​		根据多弧并行视觉设备通信需要，初步拟定的系统基本框架如下：</p>
 <p><img src="/../images/image-20220809200352391.png" alt="视觉系统架构--v0.1"></p>
-<p>​		为节约FPGA（PL部分）计算资源利用率，将上位机与ZYNQ、相机的驱动均交由PS端实现并处理。</p>
+<p>​	<img src="/../images/image-20220819213729736.png" alt="视觉系统架构--v0.2">	</p>
+<p>为节约FPGA（PL部分）计算资源利用率，将上位机与ZYNQ、相机的驱动均交由PS端实现并处理。</p>
 <h2 id="数据流向"><a href="#数据流向" class="headerlink" title="数据流向"></a>数据流向</h2><p>​		相机发送的视频通过UDP协议发送到DDR3指定地址空间，发送完一帧后由VDMA读取，VDMA将DDR3读取的AXI4数据流转换为无地址的AXI-Stream数据流，供后续图像处理及视频输出使用，AXI-Stream to Video Out实现AXI-Stream数据到视频流（rgb888）数据的转换。rgb2lcd实现LCD屏ID的读取，RGB88数据转lcd显示。</p>
+<h2 id="图像处理环节"><a href="#图像处理环节" class="headerlink" title="图像处理环节"></a>图像处理环节</h2><h3 id="sobel边缘检测"><a href="#sobel边缘检测" class="headerlink" title="sobel边缘检测"></a>sobel边缘检测</h3><p>​		通过Vivado HLS编写sobel算法的硬件电路，将其封装为sobel_function ip核，将此ip核植入WAAM硬件系统中，其input端口与VDMA模块的读通道连接，output端口连接AXI-Stream to Video Out模块的输入端口，AXI-Slite端连接到AXI-InterConnect模块上，间接与PS端连接，用于控制sobel_function 模块的驱动初始化、设置图像大小格式等。实际效果图如下：</p>
+<p><img src="/../images/fengjing_800x480.bmp" alt="800x480原图"></p>
+<p><img src="/../images/b4abdc69ef2ec9ab611a44fbcb27954.jpg" alt="800x480效果图"></p>
 <h2 id="控制流"><a href="#控制流" class="headerlink" title="控制流"></a>控制流</h2><p>​		对数据流的处理通过在PS端进行软件编程实现，针对相机UDP数据流的输入，采用开源轻量级以太网协议栈Lwip实现，针对显示模块，为适配不同分辨率的显示器，硬件上设置值了AXI GPIO用于传输LCD屏的ID信号，设置动态时钟模块–AXI dynclk为显示相关的配置模块提供各种频率的驱动时钟，软件上通过判断AXI GPIO传输出来的ID号配置 AXI dynclk需要输出的时钟，配置VDMA缓冲帧的大小（实际上在以太网图像输入环节已经开辟了480x800x3字节的固定缓冲帧,此配置实际上无效)，Video Timing Controller并不需要上位机（ps）程序配置，其所需要的时钟由AXI dynclk提供，主要作用是控制AXI-Stream to Video Out视频画面输出的时序。</p>
  
       <!-- reward -->
